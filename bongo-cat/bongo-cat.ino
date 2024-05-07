@@ -6,7 +6,7 @@
 #define SCREEN_WIDTH 128
 #define SCREEN_HEIGHT 64 
 
-Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, OLED_RESET);
+Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, -1);
 
 const int LEFT_BUTTON_PIN = 4; 
 const int RIGHT_BUTTON_PIN = 2;
